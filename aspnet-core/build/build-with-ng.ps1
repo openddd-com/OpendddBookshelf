@@ -35,7 +35,7 @@ $ngConfigPath = Join-Path $outputFolder "ng/assets/appconfig.json"
 (Get-Content $ngConfigPath) -replace "4200", "9902" | Set-Content $ngConfigPath
 
 ## CREATE DOCKER IMAGES #######################################################
-
+docker-machine env default| Invoke-Expression
 # Host
 Set-Location (Join-Path $outputFolder "Host")
 
