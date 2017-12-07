@@ -9,10 +9,6 @@
 
 5.dotnet ef database update
 
-# front end
-
-npm install typescript@'>=2.1.0 <2.4.0'
-
 # build
 
 cd aspnet-core/build
